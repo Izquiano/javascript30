@@ -31,13 +31,8 @@ function playSoundClick(e) {
   audio.play();
 }
 
-window.addEventListener("keydown", playSound);
-
-keys.forEach((key) => key.addEventListener("click", playSoundClick));
-
-// const height = window.innerHeight;
-// console.log(height);
-
-// const container = document.querySelector(".keys");
-// console.log(container);
-// container.style.minHeight = `"${height}px"`;
+if (x.matches) {
+  window.addEventListener("keydown", playSound);
+} else {
+  keys.forEach((key) => key.addEventListener("click", playSoundClick));
+}
