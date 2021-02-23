@@ -38,6 +38,10 @@ body {
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
   box-shadow: 2px 0 2px 2px rgba(0, 0, 0, 0.2);
 }
+.minutes {
+  width: 45%;
+  left: 10px;
+}
 .seconds {
   background-color: blueviolet;
   height: 1px;
